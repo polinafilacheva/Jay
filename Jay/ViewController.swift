@@ -32,9 +32,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             cell1.lable1.text = point1.name// берем из базы фотку и название
             cell1.ingCell.image = point1.photo
             cell1.textOne.text = point1.text
-//            cell1.imageRating.image = point1.raiting
-            //String(indexPath.row) берем из базы фотку и название
-            //cell1.ingCell.image = UIImage(named: "7-2 5.png")
+//            
         } else if indexPath.row == 4 {
             let point2 = data[indexPath.row] as Data
             cell1.lable1.text = point2.name// берем из базы фотку и название

@@ -29,7 +29,7 @@ class ProfileViewController: UIViewController {
         btnSelect.layer.borderWidth = 0.5
         btnSelect.layer.borderColor = UIColor.lightGray.cgColor
         
-        let cn : String = Shared.shared.companyName ?? "Select Company"
+        let cn : String = Shared.shared.companyName ?? "Select"
         btnSelect.setTitle(cn,for: .normal)
 
 
