@@ -35,7 +35,7 @@ class PopOverViewComtroller: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        print("Company Name : " + names[indexPath.row])
+        print("Name : " + names[indexPath.row])
         
         Shared.shared.companyName = names[indexPath.row]
         
