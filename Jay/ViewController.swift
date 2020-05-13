@@ -103,7 +103,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         colView.delegate = self
         
         colView.dataSource = self
-        let image1 = UIImage(named: "7-2 9.png")
+        let image1 = UIImage(named: "7-2 11.png")
         let image2 = UIImage(named: "Q_MainPhotoCard.png")
         let image3 = UIImage(named: "7-2 6.png")
         let image4 = UIImage(named: "7-2 7.png")
@@ -116,9 +116,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         let data3 = Data(name: "Средневековые замки", photo: image3, text: "Страна бесчисленных озер и прекрасных гор. Все великолепие пейзажев в этой историин")
         
-        let data4 = Data(name: "Храмы Москвы", photo: image4, text: "Культовые Московские религиозные сооружения")
+        let data4 = Data(name: "Храмы Москвы", photo: image4, text: "Культовые Московские религиозные сооружения, расивейшие храмы и оборы с унильной архитекторой")
         
-        let data5 = Data(name: "Готический Лондон", photo: image2, text: "Вся прелесть и изящество готической архитектуре в рамках сторого Лондона")
+        let data5 = Data(name: "Готический Лондон", photo: image2, text: "Вся прелесть и изящество готической архитектуре в рамках сторого Лондона, уютные улочки и оживленные проспекты")
         
         let data6 = Data(name: "Лондон", photo: image5, text: "8 МАРШРУТОВ")
         
