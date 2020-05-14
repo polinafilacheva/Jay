@@ -14,7 +14,7 @@ class PopOverViewComtroller: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBOutlet weak var tableView: UITableView!
     
-    var names: [String] = ["Настройки подписки","Управление финансами","Заявка на верификацию и монетизацию","Конфеденциальность","Выход из аккаунта"]
+    var names: [String] = ["Настройки подписки","Управление финансами","Заявка на верификацию и монетизацию","Конфеденциальность", "Редактировать профиль","Выход из аккаунта"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

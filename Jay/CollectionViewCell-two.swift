@@ -11,5 +11,7 @@ import UIKit
 class CollectionViewCell_two: UICollectionViewCell {
     @IBOutlet weak var lableCell2: UILabel!
     @IBOutlet weak var lableTwo: UILabel!
+    @IBAction func allButon(_ sender: Any) {
+    }
     
 }

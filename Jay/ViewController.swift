@@ -89,9 +89,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if indexPath.row == 4 {
-            return CGSize(width: 500, height: 100)
+            return CGSize(width: 500, height: 130)
         }
-        return CGSize(width: 500, height: 364)
+        return CGSize(width: 500, height: 410)
         
         //indexPath.item == 0 ? CGSize(width: 335, height: 364) :  CGSize(width: 335, height: 364)
     }
@@ -107,7 +107,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let image2 = UIImage(named: "Q_MainPhotoCard.png")
         let image3 = UIImage(named: "7-2 6.png")
         let image4 = UIImage(named: "7-2 7.png")
-        let image5 = UIImage(named: "7-2 10.png")
+        let image5 = UIImage(named: "7-2 19.png")
 //        let imageRating = UIImage(named: "7-2 9.png")
         
         let data1 = Data(name: "Мосты Китая", photo: image1, text: "Висячие мосты с основным пролётом, самые новые и самые древние творения человека на территории древнейшего государства.")//, raiting: imageRating)

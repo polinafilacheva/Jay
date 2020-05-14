@@ -10,6 +10,7 @@ import UIKit
 
 class Notifications: UIViewController {
 
+    @IBOutlet weak var tableNotofocation: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
