@@ -22,13 +22,13 @@ class LoginView: UIViewController {
         let line = CALayer()
         
         
-        line.frame = CGRect(x: 0, y: login.frame.height - 2, width: login.frame.width, height: 1.5)
+        line.frame = CGRect(x: 0, y: login.frame.height - 1, width: login.frame.width, height: 1)
         
         line.backgroundColor = UIColor.purple.cgColor
         
         let line2 = CALayer()
         
-        line2.frame = CGRect(x: 0, y: password.frame.height - -100, width: password.frame.width, height: 1.5)
+        line2.frame = CGRect(x: 0, y: password.frame.height - -100, width: password.frame.width, height: 1)
         
         line2.backgroundColor = UIColor.purple.cgColor
         

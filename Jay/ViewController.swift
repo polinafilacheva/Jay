@@ -85,8 +85,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     
-    
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if indexPath.row == 4 {
             return CGSize(width: 500, height: 130)
@@ -131,5 +129,14 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
     }
     
+    func didLikeButtonPressed(cell: CollectionViewCell_one) {
+        
+    if let 
+//        if let indexPath = collectionView.data(for: cell) {
+//            data[indexPath.row].isLiked = data[indexPath.row].isLiked ? false : true
+//            cell.isLiked = data[indexPath.row].isLiked
+//        }
+    }
+
 }
 
