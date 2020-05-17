@@ -112,7 +112,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         let data2 = Data(name: "Подборки", photo: image2, text: "Страна бесчисленных озер, деревушек и высокогорных Альп.Во многих городах сохранились средневековые ")
         
-        let data3 = Data(name: "Средневековые замки", photo: image3, text: "Страна бесчисленных озер и прекрасных гор. Все великолепие пейзажев в этой историин")
+        let data3 = Data(name: "Средневековые замки", photo: image3, text: "Страна бесчисленных озер и прекрасных гор. Все великолепие пейзажев в этой истории. Пройдись по культовым местам")
         
         let data4 = Data(name: "Храмы Москвы", photo: image4, text: "Культовые Московские религиозные сооружения, расивейшие храмы и оборы с унильной архитекторой")
         
@@ -127,15 +127,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         data.append(data2)
         data.append(data6)
         
-    }
-    
-    func didLikeButtonPressed(cell: CollectionViewCell_one) {
-        
-    if let 
-//        if let indexPath = collectionView.data(for: cell) {
-//            data[indexPath.row].isLiked = data[indexPath.row].isLiked ? false : true
-//            cell.isLiked = data[indexPath.row].isLiked
-//        }
+//    }
+//
+//    func didLikeButtonPressed(cell: CollectionViewCell_one) {
+//
+//    if let
+////        if let indexPath = collectionView.data(for: cell) {
+////            data[indexPath.row].isLiked = data[indexPath.row].isLiked ? false : true
+////            cell.isLiked = data[indexPath.row].isLiked
+////        }
     }
 
 }

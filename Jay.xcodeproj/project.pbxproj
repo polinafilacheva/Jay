@@ -55,6 +55,10 @@
 		E1740F53246DDD1C00619628 /* RoutScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1740F52246DDD1C00619628 /* RoutScrollViewController.swift */; };
 		E1740F55246DE08300619628 /* 7-2 22.png in Resources */ = {isa = PBXBuildFile; fileRef = E1740F54246DE08300619628 /* 7-2 22.png */; };
 		E1740F57246DE17800619628 /* 7-2 17.png in Resources */ = {isa = PBXBuildFile; fileRef = E1740F56246DE17800619628 /* 7-2 17.png */; };
+		E18CB5012471C685006E11A7 /* 7-2 28.png in Resources */ = {isa = PBXBuildFile; fileRef = E18CB5002471C685006E11A7 /* 7-2 28.png */; };
+		E18CB5032471C68B006E11A7 /* 7-2 27.png in Resources */ = {isa = PBXBuildFile; fileRef = E18CB5022471C68B006E11A7 /* 7-2 27.png */; };
+		E18CB5052471C697006E11A7 /* profileFill.png in Resources */ = {isa = PBXBuildFile; fileRef = E18CB5042471C697006E11A7 /* profileFill.png */; };
+		E18CB5072471C6BA006E11A7 /* homeFill.png in Resources */ = {isa = PBXBuildFile; fileRef = E18CB5062471C6BA006E11A7 /* homeFill.png */; };
 		E197F38C2455E494002CFABC /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197F38B2455E494002CFABC /* Notifications.swift */; };
 		E197F38E2455E878002CFABC /* PopOverViewComtroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197F38D2455E878002CFABC /* PopOverViewComtroller.swift */; };
 		E197F3902455EC43002CFABC /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197F38F2455EC43002CFABC /* Shared.swift */; };
@@ -122,6 +126,10 @@
 		E1740F52246DDD1C00619628 /* RoutScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutScrollViewController.swift; sourceTree = "<group>"; };
 		E1740F54246DE08300619628 /* 7-2 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-2 22.png"; sourceTree = "<group>"; };
 		E1740F56246DE17800619628 /* 7-2 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7-2 17.png"; path = "../../7-2 17.png"; sourceTree = "<group>"; };
+		E18CB5002471C685006E11A7 /* 7-2 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7-2 28.png"; path = "../../7-2 28.png"; sourceTree = "<group>"; };
+		E18CB5022471C68B006E11A7 /* 7-2 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7-2 27.png"; path = "../../7-2 27.png"; sourceTree = "<group>"; };
+		E18CB5042471C697006E11A7 /* profileFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profileFill.png; path = ../../../profileFill.png; sourceTree = "<group>"; };
+		E18CB5062471C6BA006E11A7 /* homeFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeFill.png; path = ../../../homeFill.png; sourceTree = "<group>"; };
 		E197F38B2455E494002CFABC /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		E197F38D2455E878002CFABC /* PopOverViewComtroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewComtroller.swift; sourceTree = "<group>"; };
 		E197F38F2455EC43002CFABC /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
@@ -196,6 +204,8 @@
 				98716CCD241A723700AB41BB /* CollectionViewCell-thre.swift */,
 				98716CAE241A210A00AB41BB /* Assets.xcassets */,
 				98716CBF241A307A00AB41BB /* Q_MainPhotoCard.png */,
+				E18CB5002471C685006E11A7 /* 7-2 28.png */,
+				E18CB5022471C68B006E11A7 /* 7-2 27.png */,
 				E158A214246C272300D85161 /* 7-2 11.png */,
 				E1740F3F246DB60B00619628 /* 7-2 19.png */,
 				E1740F45246DD83800619628 /* 7-2 20.png */,
@@ -263,6 +273,8 @@
 				E158A20C246C21EC00D85161 /* 1-4.png */,
 				E158A208246C21EC00D85161 /* 1-5.png */,
 				E1BB9869246F19E800F2DE0A /* play.png */,
+				E18CB5042471C697006E11A7 /* profileFill.png */,
+				E18CB5062471C6BA006E11A7 /* homeFill.png */,
 				E1BB986B246F19ED00F2DE0A /* pause.png */,
 			);
 			path = TabIcons;
@@ -326,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18CB5012471C685006E11A7 /* 7-2 28.png in Resources */,
 				E1BB9858246EC55A00F2DE0A /* 7-2 23.png in Resources */,
 				E1BB986A246F19E800F2DE0A /* play.png in Resources */,
 				E158A229246D774700D85161 /* 7-2 16.png in Resources */,
@@ -333,10 +346,12 @@
 				E1BB985C246EC56400F2DE0A /* 7-2 25.png in Resources */,
 				E158A213246C24C400D85161 /* 1-2.png in Resources */,
 				E1BB9866246EFD1A00F2DE0A /* Audio.mp3 in Resources */,
+				E18CB5032471C68B006E11A7 /* 7-2 27.png in Resources */,
 				E158A217246C2B7000D85161 /* 7-2 9.png in Resources */,
 				98716CCC241A539F00AB41BB /* 7-2 6.png in Resources */,
 				E158A22F246D9D6100D85161 /* Manrope-Bold.ttf in Resources */,
 				98716CB2241A210A00AB41BB /* LaunchScreen.storyboard in Resources */,
+				E18CB5072471C6BA006E11A7 /* homeFill.png in Resources */,
 				98716CAF241A210A00AB41BB /* Assets.xcassets in Resources */,
 				98716CC2241A308000AB41BB /* 7-2 5.png in Resources */,
 				E1740F3E246DB49200619628 /* mark.png in Resources */,
@@ -365,6 +380,7 @@
 				E158A20F246C21EC00D85161 /* 1-3.png in Resources */,
 				98716CAD241A210800AB41BB /* Main.storyboard in Resources */,
 				E158A210246C21EC00D85161 /* 1_1.png in Resources */,
+				E18CB5052471C697006E11A7 /* profileFill.png in Resources */,
 				E1BB985A246EC56000F2DE0A /* 7-2 24.png in Resources */,
 				98716CC0241A307A00AB41BB /* Q_MainPhotoCard.png in Resources */,
 				E1740F42246DB98B00619628 /* meatBall.png in Resources */,
