@@ -26,13 +26,14 @@ class CollectionViewCell_one: UICollectionViewCell {
         }
     }
     
-//    var delegate:CollectionViewCell_one?
-//    
-//        @IBAction func likeButtonTapped(sender: AnyObject) {
-//            delegate?.didLikeButtonPressed(cell: self)
-//        }
-//    }
-//
-//    protocol TripCollectionCellDelegate {
-//        func didLikeButtonPressed(cell: CollectionViewCell_one)
+    var delegate: TripCollectionCellDelegate?
+    
+    @IBAction func likeButtonTapped(sender: AnyObject) {
+        delegate?.didLikeButtonPressed(cell: self)
+    }
+}
+
+protocol TripCollectionCellDelegate {
+    func didLikeButtonPressed(cell: CollectionViewCell_one)
+    
 }

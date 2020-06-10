@@ -5,26 +5,29 @@
 
 import UIKit //нужно убрать скролл 
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout,
+    TripCollectionCellDelegate
+{
     
     var data = [Data]()
     
-   
+    
     @IBOutlet weak var colView: UICollectionView!
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return data.count
         
-
     }
     
     
-        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell1", for: indexPath) as! CollectionViewCell_one
+        cell1.delegate = self
         
         let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell2", for: indexPath) as! CollectionViewCell_two
         
         let cell3 = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell3", for: indexPath) as! CollectionViewCell_thre
+    
         
         
         if indexPath.row == 0 {
@@ -32,7 +35,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             cell1.lable1.text = point1.name// берем из базы фотку и название
             cell1.ingCell.image = point1.photo
             cell1.textOne.text = point1.text
-//            
+            //
         } else if indexPath.row == 4 {
             let point2 = data[indexPath.row] as Data
             cell1.lable1.text = point2.name// берем из базы фотку и название
@@ -98,6 +101,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         super.viewDidLoad()
         
         
+        
         colView.delegate = self
         
         colView.dataSource = self
@@ -106,7 +110,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let image3 = UIImage(named: "7-2 6.png")
         let image4 = UIImage(named: "7-2 7.png")
         let image5 = UIImage(named: "7-2 19.png")
-//        let imageRating = UIImage(named: "7-2 9.png")
+        //        let imageRating = UIImage(named: "7-2 9.png")
         
         let data1 = Data(name: "Мосты Китая", photo: image1, text: "Висячие мосты с основным пролётом, самые новые и самые древние творения человека на территории древнейшего государства.")//, raiting: imageRating)
         
@@ -127,16 +131,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         data.append(data2)
         data.append(data6)
         
-//    }
-//
-//    func didLikeButtonPressed(cell: CollectionViewCell_one) {
-//
-//    if let
-////        if let indexPath = collectionView.data(for: cell) {
-////            data[indexPath.row].isLiked = data[indexPath.row].isLiked ? false : true
-////            cell.isLiked = data[indexPath.row].isLiked
-////        }
     }
-
+    
+    func didLikeButtonPressed(cell: CollectionViewCell_one) {
+        
+        if let indexPath = colView.indexPath(for: cell) {
+            data[indexPath.row].isLiked = data[indexPath.row].isLiked ? false : true
+            cell.isLiked = data[indexPath.row].isLiked
+        }
+    }
+    
 }
 

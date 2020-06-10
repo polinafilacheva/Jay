@@ -11,4 +11,5 @@ struct Data {
     var photo : UIImage?
     var text = ""
     var raiting : UIImage?
+    var isLiked : Bool = false
 }
