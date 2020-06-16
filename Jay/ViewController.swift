@@ -105,7 +105,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         colView.delegate = self
         
         colView.dataSource = self
-        let image1 = UIImage(named: "7-2 11.png")
+        let image1 = UIImage(named: "7-2 26.png")
         let image2 = UIImage(named: "Q_MainPhotoCard.png")
         let image3 = UIImage(named: "7-2 6.png")
         let image4 = UIImage(named: "7-2 7.png")
